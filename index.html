@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Javier Palos — Game Developer</title>
+  <meta name="description" content="Portfolio of Javier Palos, graduate in Video Game Design and Development, indie developer and Unity publisher." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800;900&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav">
+    <a class="brand" href="#top">JP<span class="dot">.</span></a>
+    <div class="nav-links">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <a class="nav-cta" href="mailto:chapipalosgames@gmail.com">Get in touch</a>
+  </nav>
+
+  <!-- HERO -->
+  <header class="hero" id="top">
+    <div class="hero-inner">
+      <div class="hero-visual">
+        <div class="banner-frame">
+          <img src="assets/Banner.png" alt="Chapipalos Games banner" />
+          <div class="banner-glow"></div>
+        </div>
+        <div class="float-badge badge-1">Unity</div>
+        <div class="float-badge badge-2">C#</div>
+        <div class="float-badge badge-3">Game Design</div>
+      </div>
+      <div class="hero-text">
+        <p class="eyebrow">Video Game Design &amp; Development</p>
+        <h1>Javier<br><span class="accent">Palos</span></h1>
+        <p class="hero-sub">Graduate in Video Game Design and Development. I build playable experiences, gameplay systems and tools for Unity.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#projects">View projects</a>
+          <a class="btn ghost" href="#about">About me</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ABOUT -->
+    <section id="about" class="section about-section">
+      <div class="section-label">01 — About me</div>
+      <div class="about-grid">
+        <div class="about-text">
+          <h2>Game developer with<br><em>a passion for gameplay</em></h2>
+          <p>
+            I'm Javier Palos, a graduate in <strong>Video Game Design and Development</strong>.
+            My degree blends artistic and technical foundations — from level design and narrative
+            to programming gameplay systems in Unity with C#.
+          </p>
+          <p>
+            Under the alias <strong>Chapipalos Games</strong> I develop my own indie projects: experimental games,
+            Unity assets and gameplay-driven prototypes. I'm especially interested in
+            artificial intelligence for games, combat systems and local multiplayer mechanics.
+          </p>
+          <p>
+            I'm looking to apply my academic background and hands-on experience to projects where
+            <em>game feel</em> and player experience are the priority. Always learning,
+            always building.
+          </p>
+          <div class="about-chips">
+            <span>Unity</span>
+            <span>C#</span>
+            <span>Game Design</span>
+            <span>Level Design</span>
+            <span>AI for Games</span>
+            <span>Local Multiplayer</span>
+            <span>Prototyping</span>
+            <span>Narrative Design</span>
+          </div>
+        </div>
+        <div class="about-aside">
+          <div class="info-card">
+            <div class="info-item">
+              <span class="info-label">Education</span>
+              <span class="info-value">B.S. in Video Game Design and Development</span>
+            </div>
+            <div class="info-item">
+              <span class="info-label">Speciality</span>
+              <span class="info-value">Gameplay &amp; AI Programming</span>
+            </div>
+            <div class="info-item">
+              <span class="info-label">Main engine</span>
+              <span class="info-value">Unity · C#</span>
+            </div>
+            <div class="info-item">
+              <span class="info-label">Role</span>
+              <span class="info-value">Indie Developer · Unity Publisher</span>
+            </div>
+            <div class="info-item">
+              <span class="info-label">Email</span>
+              <span class="info-value"><a href="mailto:chapipalosgames@gmail.com">chapipalosgames@gmail.com</a></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+      <div class="section-label">02 — Projects</div>
+      <h2>Games &amp; tools</h2>
+      <div class="project-grid">
+
+        <article class="project-card featured-card">
+          <div class="project-img-wrap">
+            <img src="assets/pinmatchball.jpg" alt="PINMATCHBALL gameplay screenshot" />
+            <span class="status-badge">In development</span>
+          </div>
+          <div class="project-body">
+            <h3>PINMATCHBALL</h3>
+            <p>
+              A frenetic pinball game where each player controls 2 flippers to score goals against their opponent.
+              First player to reach 9 points wins.
+            </p>
+            <p class="project-detail">
+              During the match, power-ups spawn across the arena, shaking up the gameplay in different ways.
+              There are 4 types:
+            </p>
+            <ul class="project-list">
+              <li><strong>Freeze</strong> — Freezes the rival's flippers for a set amount of time.</li>
+              <li><strong>Spike</strong> — Turns the ball into a spike ball. The next time it hits a rival flipper, that flipper is disabled for a set amount of time.</li>
+              <li><strong>Teleport</strong> — Instantly teleports the ball back to your spawn position.</li>
+              <li><strong>Ghost</strong> — For a limited time, the ball becomes a ghost and passes through all objects — including both your own and your rival's flippers.</li>
+            </ul>
+            <p class="project-detail">The game features 3 game modes:</p>
+            <ul class="project-list">
+              <li><strong>Local Multiplayer</strong> — Two players on the same computer.</li>
+              <li><strong>Single Player</strong> — Play against an AI opponent.</li>
+              <li><strong>Multiplayer</strong> — Play an online match against another player from anywhere in the world.</li>
+            </ul>
+            <div class="tags">
+              <span>Unity</span><span>C#</span><span>Arcade</span><span>Local Multiplayer</span><span>Online Multiplayer</span><span>Custom Physics</span>
+            </div>
+            <a class="project-link" href="https://youtu.be/_bXGzzHm8Co" target="_blank" rel="noopener">Watch video →</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-icon-wrap">
+            <div class="project-icon">DF</div>
+            <span class="status-badge">In development</span>
+          </div>
+          <div class="project-body">
+            <h3>Dialogue Framework</h3>
+            <p>
+              A Unity asset for building 2D and 3D dialogue systems, designed to help developers
+              prototype conversations and narrative interactions faster and with less boilerplate.
+            </p>
+            <p class="project-detail">
+              The framework provides a visual node editor for authoring branching dialogue trees,
+              support for conditional logic, character portraits and event hooks that connect directly
+              to Unity's component system. Built with flexibility in mind — it works for simple
+              NPC lines as well as complex story-driven sequences, without locking you into any
+              specific narrative structure.
+            </p>
+            <div class="tags">
+              <span>Unity</span><span>C#</span><span>Dialogue</span><span>Tool</span><span>Node Editor</span>
+            </div>
+            <span class="project-link muted">Link coming soon</span>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section skills-section">
+      <div class="section-label">03 — What I build</div>
+      <h2>Areas of work</h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <div class="skill-icon">⚙️</div>
+          <h3>Gameplay Systems</h3>
+          <p>Reusable mechanics designed for fast prototyping and clean Unity workflows — physics interactions, input handling, game loops and more.</p>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">🤖</div>
+          <h3>AI &amp; Behaviours</h3>
+          <p>Enemy logic, movement patterns, wave systems and behaviour experiments using state machines and custom decision-making architectures.</p>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">🛠️</div>
+          <h3>Tools &amp; Prototypes</h3>
+          <p>Small Unity editor tools and playable prototypes focused on rapid iteration, practical use and clean integration into existing projects.</p>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">🎮</div>
+          <h3>Game Design</h3>
+          <p>Level design, mechanic balancing, game feel and player experience — bridging creative vision with technical implementation.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section contact-section">
+      <div class="section-label">04 — Contact</div>
+      <div class="contact-inner">
+        <h2>Let's talk</h2>
+        <p>Open to collaborations, projects and opportunities. Feel free to reach out.</p>
+        <div class="contact-links">
+          <a href="mailto:chapipalosgames@gmail.com" class="contact-link">
+            <span class="contact-icon">✉</span>
+            <span>chapipalosgames@gmail.com</span>
+          </a>
+          <a href="https://www.instagram.com/chapipalosgames" target="_blank" class="contact-link">
+            <span class="contact-icon">◈</span>
+            <span>Instagram</span>
+          </a>
+          <a href="https://www.linkedin.com/in/javier-palos-ull%C3%A1n-472b57316" target="_blank" class="contact-link">
+            <span class="contact-icon">◉</span>
+            <span>LinkedIn</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> Javier Palos · Chapipalos Games</p>
+    <p class="footer-sub">Video Game Design &amp; Development</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
