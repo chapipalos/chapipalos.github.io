@@ -373,12 +373,13 @@ h3 {
 .skill-card p { color: var(--muted); font-size: 0.88rem; line-height: 1.6; }
 
 /* ─── CONTACT ─── */
-.contact-section { text-align: center; }
+.contact-section { text-align: left; }
 .contact-inner {
   background: var(--card);
   border: 1px solid var(--border);
   border-radius: 32px;
   padding: 80px 60px;
+  text-align: center;
 }
 .contact-inner h2 { margin-bottom: 16px; }
 .contact-inner > p { color: var(--muted); margin-bottom: 48px; }
